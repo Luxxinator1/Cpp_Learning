@@ -21,5 +21,6 @@ int main(){
                                               // bekommen wir 80% 
     double score = correct/(double)questions * 100;
     std::cout << score << "%" << '\n';
+
     return 0;
 }

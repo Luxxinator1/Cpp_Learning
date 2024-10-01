@@ -24,8 +24,6 @@ int main(){
 
     std::cout << "Hello " << name << '\n';
 
-    return 0;
-
     name.append("@gmail.com"); // zum string hinzufügen
     std::cout << "Your username is now " << name << '\n';
 
@@ -38,4 +36,6 @@ int main(){
     std::cout << name.find('u'); // gib die Position des Buchstaben zurück
 
     name.erase(0, 3); // löscht 0 1 2 -- 0 is the beginnig index 3 the ending index (not inclusive)
+
+    return 0;
 }

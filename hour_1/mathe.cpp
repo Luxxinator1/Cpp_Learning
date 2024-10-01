@@ -13,5 +13,6 @@ int main(){
     students/=2;
 
     std::cout << students; // % < gives remainder of any devision
+
     return 0;
 }

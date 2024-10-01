@@ -12,14 +12,12 @@ int main(){
     using std::cout;
     using std::endl;
     using namespace first;
+
     //using namespace std; auf keinen Fall benutzen
 
     cout << x << endl;
     cout << first::x << endl;
     cout << second::x;
-    
-
-    
 
     return 0;
 }
