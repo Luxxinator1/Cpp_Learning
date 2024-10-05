@@ -15,5 +15,5 @@ int main(){
 		std::cout << y << '\n';
 	}
 
-		return 0;
+	return 0;
 }
