@@ -3,7 +3,7 @@
 int main() {
 	std::string name;
 
-	while(name.empty()){	// while(1==1) unendlicher loop
+	while(name.empty()){	// while(1==1) infinite loop
 		std::cout << "Enter your name: \a";
 		std::getline(std::cin, name);
 	}

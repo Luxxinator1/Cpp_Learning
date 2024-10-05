@@ -13,9 +13,11 @@ int main(){
 
     std::string full_name;
     std::cout << "What's your full name? " << '\n';
-    //std::cin >> full_name; Problem. std::cin erkennt keine Leerzeichen 
-    //Folgende Funktion benutzen
-    std::getline(std::cin >> std::ws, full_name); // std::ws wichtig
+
+    // std::cin >> full_name; Problem: std::cin doesn't recognize whitespaces 
+    // Insted use the following method
+
+    std::getline(std::cin >> std::ws, full_name); // std::ws = whitespace 
     std::cout << "Hello " << full_name << ". " << '\n';
 
     return 0;

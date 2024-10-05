@@ -15,7 +15,7 @@ int main(){
     // declare the function before the main function
     // declare first define later
 
-    std::string name = "Lukas"; // cant accesses variables outside of your funcition 
+    std::string name = "Lukas"; // can't accesses variables outside of your funcition 
     int age = 14;
 
     happyBirthday();

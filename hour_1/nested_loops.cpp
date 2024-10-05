@@ -13,7 +13,7 @@ int main(){
     // loop in a loop
 
     for(int i = 1; i <= 3; i++){
-        for(int j = 1; j <= 10; j++){  // inner loop nennt man oft j
+        for(int j = 1; j <= 10; j++){  // inner loop is often called j 
             std::cout << j << ' ';
         }
         std::cout << '\n';
@@ -36,7 +36,7 @@ int main(){
     std::cout << '\n';
 
     for(int i = 1; i <= rows; i++){
-        for(int j = 1; j <= columns; j++){  // inner loop nennt man oft j
+        for(int j = 1; j <= columns; j++){
             std::cout << symbol;
         }
         std::cout << '\n';

@@ -13,7 +13,7 @@ int main(){
         std::cout << "Welcome " << name << '\n';
     }
 
-    if(name.empty()){ // name.empty ist ein boolien
+    if(name.empty()){ // name.empty is a boolean
         std::cout << "You didin't enter your name\n";
     }
     else {
@@ -24,7 +24,7 @@ int main(){
 
     std::cout << "Hello " << name << '\n';
 
-    name.append("@gmail.com"); // zum string hinzufügen
+    name.append("@gmail.com"); // add x to the string 
     std::cout << "Your username is now " << name << '\n';
 
     std::cout << name.at(0) << '\n'; // displays the character at x position (starts at 0)
@@ -33,9 +33,9 @@ int main(){
 
     std::cout << name << '\n';
 
-    std::cout << name.find('u'); // gib die Position des Buchstaben zurück
+    std::cout << name.find('u'); // returns the position of the letter 
 
-    name.erase(0, 3); // löscht 0 1 2 -- 0 is the beginnig index 3 the ending index (not inclusive)
+    name.erase(0, 3); // deletes 0 1 2 => 0 is the beginnig index 3 the ending index (3 not included)
 
     return 0;
 }

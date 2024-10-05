@@ -14,7 +14,7 @@ int main(){
 
     bool hungry = false;
 
-    std::cout << (hungry ? "You are hungry" : "You are full") << '\n'; // alternative Schreibweise
+    std::cout << (hungry ? "You are hungry" : "You are full") << '\n'; // alternative way to write it 
 
 
     return 0;

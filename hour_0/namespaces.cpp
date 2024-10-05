@@ -13,7 +13,7 @@ int main(){
     using std::endl;
     using namespace first;
 
-    //using namespace std; auf keinen Fall benutzen
+    //using namespace std; is a bad habit 
 
     cout << x << endl;
     cout << first::x << endl;
